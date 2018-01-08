@@ -1,0 +1,131 @@
+.searchbox {
+  height: 50px;
+  width: 100%;
+  max-width: 650px;
+  font-style: italic;
+  border-radius: 4px;
+  border: 3px solid #104E8B;
+  background-color: white;
+}
+
+body{
+  background-image: url("../../assets/images/nba.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.gpmarginbottom{
+  margin-bottom: 10px;
+}
+
+.gpmarginbottom2{
+  margin-bottom: 30px;
+}
+
+.button{
+  background-color:  #d3d3d3;
+  text-align: center;
+  padding: 10px 10px;
+  border-radius: 4px 20px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  border: 3px solid #104E8B;
+}
+
+.button:hover{
+  background-color: #104E8B;
+  color: white;
+}
+
+.button2{
+  height: 50px;
+  background-color:  #104E8B;
+  border-color: black;
+  text-align: center;
+  padding: 7px 20px;
+  border-radius: 4px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  color: white;
+  font-size: 18px;
+}
+
+.button2:hover{
+  background-color: #104E8B;
+  color: red;
+}
+
+.gifSize{
+  height: 100%;
+  width: 100%;
+  max-width: 350px;
+  max-height: 180px;
+  border: 1px solid white;
+  background-color: #d3d3d3;
+  border-radius: 4px ;
+  margin-right: 10px;
+}
+
+.gifmargin{
+  margin-bottom: 10px;
+}
+
+.logoSize {
+  height: 100%;
+  width: 100%;
+  max-height: 1000px;
+  max-width: 900px;
+}
+
+.gpmargintop{
+  margin-top: 50px;
+}
+
+
+@media only screen and (max-width : 1830px) and (min-width : 1431px) {
+  .logoSize {
+    height: 100%;
+    width: 100%;
+    max-height: 630px;
+    max-width: 700px;
+  }
+}
+
+@media only screen and (max-width : 1430px) and (min-width : 770px) {
+  .logoSize {
+    height: 100%;
+    width: 100%;
+    max-height: 630px;
+    max-width: 700px;
+  }
+}
+
+@media only screen and (max-width : 769px) and (min-width : 640px) {
+  .logoSize {
+    height: 100%;
+    width: 100%;
+    max-height: 500px;
+    max-width: 500px;
+  }
+}
+
+@media only screen and (max-width : 639px) and (min-width : 0px) {
+  .logoSize {
+    height: 100%;
+    width: 100%;
+    max-height: 0;
+    max-width: 0;
+  }
+
+  .searchbox {
+    height: 50px;
+    width: 100%;
+    max-width: 650px;
+    font-style: italic;
+    border-radius: 4px;
+    border: 3px solid #104E8B;
+    background-color: white;
+  }
+}
